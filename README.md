@@ -20,5 +20,5 @@ In a brief, this project has formed by two steps:
 
 1. First you should open the server folder and select the `server.py` file then run it, after that you will get a http call link.
 2. Then you can open UI folder and found app.html file then double-click it.
-3. After it runs, you can drag or select your test image for one of selected person in this model then click Classify. Please note that one image can be match by two images or more due to the model's accuracy.
+3. After it runs, you can drag or select your test image for one of selected person in this model then click Classify. Please note that one image can be match by two images or more due to the model's accuracy for each image.
 

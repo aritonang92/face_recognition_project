@@ -4,7 +4,7 @@
 
 ## Description
 In this project I build simple Face Classification app that inspired by one of [codebasics's project](https://github.com/codebasics/py/tree/master/DataScience/CelebrityFaceRecognition)
-for five Selected Indonesia's Actresses, Those are: 
+for five selected Indonesia's Actresses, Those are: 
 
 1. Raisa Andriana
 2. Isyana Sarasvati
@@ -16,7 +16,7 @@ for five Selected Indonesia's Actresses, Those are:
 In a brief, this project has formed by this skeleton:
 
 1. Image Preparation: Choose and download selected images for each actresses mentioned before that have clear face that consist of eyes, mouth, ears, hair, etc.
-2. Data Cleaning: Performing data cleaning using OpenCV to detect face and eyes using [haar cascades](https://docs.opencv.org/3.4/db/d28/tutorial_cascade_classifier.html) for every image
+2. Data Cleaning: Performing data cleaning using OpenCV to detect face and eyes assisted by [haar cascades](https://docs.opencv.org/3.4/db/d28/tutorial_cascade_classifier.html) for every image
    .By using that I have cropped face and eye for every image and then stored them in another folders.
 3. Feature Engineering: In this step I used wavelet transform that allows you to extract the important features from your images.
    Actually there are other feature extraction techniques as well but if you read and go deeper for image processing

@@ -32,8 +32,8 @@ In a brief, this project has formed by this skeleton:
    this section is the formation of the backend that we will use for the website later by using a model 
    that has been saved in pickle format before. One thing that you should know
    in this section is at the part of classify image of `util.py` I introduced `base64` library 
-   for converting an image into strings. Simply I just drag my seleted image to [base64 decode](https://www.base64-image.de/)
-   then they convert in into string.
+   for converting an image into strings, simply I just drag my seleted image from local directory to [base64 decode](https://www.base64-image.de/)
+   then they convert it into string.
 6. Build the website (Front end) : I've been using simple html, css and js to build a Front end or UI which will make a HTTP call to the back-end using jQuery.
 
 ## How to use this app

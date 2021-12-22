@@ -21,7 +21,7 @@ In a brief, this project has formed by this skeleton:
 3. Feature Engineering: In this step I used wavelet transform that allows you to extract the important features from your images.
    Actually there are other feature extraction techniques as well but if you read and go deeper for image processing
    literature wavelet transform are often the most effective way of extracting features. Prior to perform
-   the wavelet transform it's a good idea for you have to know understanding the basic concept about [signal processing](https://www.youtube.com/watch?v=xrTor1uw5iI)
+   the wavelet transform it's a good idea for you to have basic concept about [signal processing](https://www.youtube.com/watch?v=xrTor1uw5iI)
    and [Fourier transform](https://www.youtube.com/watch?v=spUNpyF58BY) because they are essential parts that you must know.
 4. Train a model: Split the images data using `train_test_split` of `sklearn` library, in this particular case I tried
    90 % for training data and 10 % for testing data then I tried Support Vector Machine (SVM) method 

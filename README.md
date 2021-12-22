@@ -25,9 +25,11 @@ In a brief, this project has formed by this skeleton:
    and [Fourier transform](https://www.youtube.com/watch?v=spUNpyF58BY) because they are essential parts that you must know.
 4. Train a model: Split the images data using `train_test_split` of `sklearn` library, in this particular case I tried
    90 % for training data and 10 % for testing data then I tried Support Vector Machine (SVM) method 
-   because it tends to performs good when it comes to many we're talking about classification. 
-   I have just randomly try that then I've tried couple of models using GridSearchCV and SVM performs the best, 
-   and at the final I saved the model in the pickle format.
+   because it tends to performs good when it comes to many we're talking about classification and also after
+   tried couple of models using `GridSearchCV` and seems like SVM performs the best. In this modelling I got
+   75.86 % of accuracy and if I compared to what [codebasics](https://github.com/codebasics/py/tree/master/DataScience/CelebrityFaceRecognition) did that got above 80 % of accuracy,
+   my results is good enough because I used five female model instead of mixed male and female models and with various skin tone, this
+   thing is matters when you're talking about image classification. At the final step I saved the model in the pickle format.
 5. Build Flask Server for `server.py` and `util.py` (Back end): In this step I've made a Python Flask server. Broadly speaking, 
    this section is the formation of the backend that we will use for the website later by using a model 
    that has been saved in pickle format before. One thing that you should know
@@ -39,6 +41,7 @@ In a brief, this project has formed by this skeleton:
 ## How to use this app
 
 1. First you should open the server folder and select the `server.py` file then run it, after that you will get a http call link.
-2. Then you can open UI folder and found app.html file then double-click it.
-3. After it runs, you can drag or select your test image for one of selected person in this model then click Classify. Please note that one image might be match by two images or more due to the model's accuracy for each image.
+2. Then you can open UI folder and found app.html file then run it.
+3. After it runs, you can drag or select your test image for one of selected person in this model from your local directory
+   then click Classify. Please note that one image might be match by two images or more due to the model's accuracy for each image.
 

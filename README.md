@@ -3,8 +3,7 @@
 ![capturing](https://user-images.githubusercontent.com/65146994/146758720-82d28178-4827-4c1c-9aa8-ec5977360322.JPG)
 
 ## Description
-In this project I build simple Face Classification app that inspired by one of [codebasics's project](https://github.com/codebasics/py/tree/master/DataScience/CelebrityFaceRecognition)
-for five selected Indonesia's Actresses, Those are: 
+In this project I build simple Face Classification app for five selected Indonesia's Actresses, Those are: 
 
 1. Raisa Andriana
 2. Isyana Sarasvati

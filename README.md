@@ -1,6 +1,6 @@
 # Face Recognition Project
 
-![capturing](https://user-images.githubusercontent.com/65146994/146758720-82d28178-4827-4c1c-9aa8-ec5977360322.JPG)
+![capturing](https://user-images.githubusercontent.com/65146994/156986891-f4544512-32c3-4524-8114-bafe2d1814ce.png)
 
 ## Description
 In this project I build simple Face Classification app for five selected Indonesia's Actresses, Those are: 
